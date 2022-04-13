@@ -24,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:onClick="saveText"
         android:text="Сохранить"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -49,6 +50,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginBottom="16dp"
+        android:onClick="openText"
         android:text="открыть"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
